@@ -2,7 +2,7 @@
 CREATE TABLE Employees (
     emp_id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
-    email TEXT UNIQUE,
+    email VARCHAR(255) UNIQUE,
     department TEXT,
     salary REAL DEFAULT 30000,
     hire_date DATE
